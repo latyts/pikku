@@ -13,7 +13,6 @@ try {
         $user,
         $pswd
     );
-    echo("connected\n");
 } catch (PDOException $e) {
     die();
 }
