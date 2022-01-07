@@ -8,6 +8,9 @@ $posts = $controller->getPosts();
 
 <ul>
     <?php foreach($posts as $post) { ?>
-    <li><?php echo($post['title']) ?></li>
+    <li>
+        <?php echo($post['title']) ?>
+        <p><?php echo($post['contents']) ?></p>
+    </li>
     <?php } ?>
 </ul>

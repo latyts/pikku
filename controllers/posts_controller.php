@@ -8,7 +8,7 @@ class PostsController {
 
     public function getPosts() {
         $posts = [];
-        $sql = 'SELECT title FROM posts ORDER BY created_at DESC';
+        $sql = 'SELECT title, contents FROM posts ORDER BY created_at DESC';
         foreach($this->conn->query($sql) as $post) {
             array_push($posts, $post);
         }
