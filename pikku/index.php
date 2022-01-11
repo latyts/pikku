@@ -7,6 +7,9 @@ require_once __DIR__ . '/config/routes.php';
     <head>
         <!-- Charset -->
         <meta charset="utf-8" />
+        
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="/public/theme.css">
     </head>
 
     <body>
