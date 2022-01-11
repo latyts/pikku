@@ -13,6 +13,6 @@
     </div>
 
     <div class="posts">
-        <p>posts</p>
+        <p>こんにちは、世界。これはメモ。</p>
     </div>
 </div>
